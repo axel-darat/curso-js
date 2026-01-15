@@ -1,1 +1,11 @@
-let animales = 
+let animales = ['chanchito', 'caballo'];
+
+console.log(animales);
+console.log(animales[0]);
+animales[2] = 'dragón';
+console.log(animales);
+
+animales[10] = 'Pez';
+console.log(animales);
+console.log(typeof animales);
+animales.length;
