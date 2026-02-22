@@ -1,16 +1,14 @@
-// UpperCamelCase, camelCase, snake_case
-
-let nombre = 'Hola Mundo!';
-let NombreCompleto;
-let nombreCompleto;
-let nombre_completo;
-
-// Siempre debe comenzar con letras
-// let 1nth;
-
+// Declaración de variable
+let nombre = "Axel";
+// Llamado de variable
 console.log(nombre);
 
-let apellido;
-let animal;
-apellido = "Darat";
-console.log(apellido);
+// Convenciones de declaración de variables
+let snake_case;
+let camelCase;
+// camelCase es el estándar de javascript
+let UpperCamelCase;
+
+// kebab-case;
+// se utiliza para urls, nombres de archivos y css (ej: font-family)
+// NO SE UTILIZA kebab-case en javascipt    
