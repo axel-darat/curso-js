@@ -1,0 +1,12 @@
+// let i = 2;
+
+// while (i < 2) {
+//     if (i % 2 == 0){
+//         console.log('Número par', i);
+//     }
+//     i++;
+// }
+
+for (i = 0; i < 10; i++) {
+    console.log('Número par', i);
+}
