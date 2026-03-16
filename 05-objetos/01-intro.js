@@ -1,23 +1,21 @@
-let email = 'axel@darat.dev';
-let name = 'Axel';
-let direccion = {
-    calle: 'Queen st',
-    numero: 15,
-};
+// let email = 'axel@correo.cl'
+// let name = 'axel';
+// let direccion = {
+//     calle: 'calle falsa',
+//     numero: 123,
+// };
 
 let user = {
-    email: 'axel@darat.dev',
+    email: 'axel@correo.cl',
+    name: 'axel',
     direccion: {
-        calle: 'Queen St',
-        numero: 15,
+        calle: 'calle falsa',
+        numero: 123,
     },
     activo: true,
-    recuperarClave: function recuperarClave() {
-        console.log('recuperando clave...');
+    recuperarClave: function () {
+        console.log('Recuperando clave...');
     },
 };
 
 console.log(user);
-
-// LLAMAR FUNCIÓN A TRAVÉS DEL OBJETO
-user.recuperarClave();
