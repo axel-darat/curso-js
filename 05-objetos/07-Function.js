@@ -14,6 +14,6 @@ function Punto(x, y){
 // console.log(p);
 
 let punto = { z: 7 };
-Punto.call(punto, 1, 2);
+Punto.call(punto, 1, 42);
 
 console.log(punto);
