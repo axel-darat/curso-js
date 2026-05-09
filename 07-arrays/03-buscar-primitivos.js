@@ -9,4 +9,3 @@ console.log(letras.lastIndexOf(1));
 console.log(letras.indexOf(1) !== -1);
 
 console.log(letras.includes('d'));
-
