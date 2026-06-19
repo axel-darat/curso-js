@@ -1,19 +1,26 @@
-// let nombre = 'Hola';
-// let apellido = 'Mundo';
+// Encapsulación
 
+// const user = {
+//     nombre: 'Hola',
+//     apellido: 'Mundo',
+//     getNombreCompleto() {
+//         return [this.nombre, this.apellido].join(' ');
+//     }
+// };
 
-// function getNombreCompleto(nombre, apellido) {
-//     return [nombre, apellido].join('');
-// }
+// console.log(user.getNombreCompleto());
 
-// let fullname = getNombreCompleto(nombre, apellido);
+// Abstracción
 
-const user = {
-    nombre: 'Hola',
-    apellido: 'Mundo',
-    getNombreCompleto() {
-        return [this.nombre, this.apellido].join('');
-    }
-};
+const user = new User();
+user.password = 'Chanchito Feliz';
+user.save();
 
-console.log(user.getNombreCompleto());
+// Herencia
+User
+Restaurante
+Motociclista
+
+function validaEntidad(entidad) {
+   entidad.save();
+}
