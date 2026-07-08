@@ -1,4 +1,4 @@
-let promesa1 = new Promise((res, rej) => {
+let promesa 1 = new Promise((res, rej) => {
     res(12);
 });
 
@@ -14,7 +14,7 @@ promesa1
     })
     .then(valor2 => {
         console.log('segunda promesa');
-
+        return valor2;
     })
     .catch(e => console.log(e))
-    .finally(() => console.log('acá estamos en finally!'));
+    .finally(() => console.log('acá estamos en finally'))
