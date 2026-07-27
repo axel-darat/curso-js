@@ -1,0 +1,1 @@
+Código utilizado en el curso de JavaScript impartido por Nicolás Schurman. La mayoría de este código no me pertenece. Simplemente utilizo este código como Backup para poder realizar el curso entre varios computadores que poseo y no andar conectado a un disco duro o pagar por nube xd
