@@ -1,6 +1,6 @@
 function Select() {}
 
-Select.prototype.render = function () {
+Select.prototype.render = function () { 
     console.log('renderizando select')
 }
 
