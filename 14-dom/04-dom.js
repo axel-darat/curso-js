@@ -26,4 +26,4 @@ document.body.insertAdjacentElement('beforeend', div);
 document.body.insertAdjacentElement('afterend', div);
 
 document.body.insertAdjacentHTML();
-document.body.insertAdjacentText(); 
+document.body.insertAdjacentText();
